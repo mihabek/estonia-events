@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Events in Estonia</title>
+  <meta name="description" content="All concerts, theatre, parties, lectures, exhibitions and meetups in Estonia in one place. Filter by city, date, category and language (Estonian, Russian, English).">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%AD%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="#" id="brand">
+        <span class="brand-icon">🎭</span>
+        <span data-i18n="title">Events in Estonia</span>
+      </a>
+      <div class="top-right">
+        <span class="updated" id="updated"></span>
+        <div class="ui-lang" role="group" aria-label="Interface language">
+          <button data-ui="et">ET</button>
+          <button data-ui="ru">RU</button>
+          <button data-ui="en">EN</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="filters" id="filters">
+      <div class="row">
+        <label class="search">
+          <span class="visually-hidden" data-i18n="search">Search</span>
+          <input type="search" id="q" data-i18n-placeholder="searchPlaceholder" placeholder="Search events, venues, artists…" autocomplete="off">
+        </label>
+        <select id="city" aria-label="City"></select>
+        <select id="lang" aria-label="Content language">
+          <option value="" data-i18n="anyLang">Any language</option>
+          <option value="et" data-i18n="langEt">Estonian</option>
+          <option value="ru" data-i18n="langRu">Russian</option>
+          <option value="en" data-i18n="langEn">English</option>
+        </select>
+      </div>
+
+      <div class="row chips" id="dates"></div>
+      <div class="row custom-dates" id="customDates" hidden>
+        <label><span data-i18n="from">From</span> <input type="date" id="from"></label>
+        <label><span data-i18n="to">To</span> <input type="date" id="to"></label>
+      </div>
+
+      <div class="row chips" id="cats"></div>
+
+      <div class="row toggles">
+        <label class="toggle"><input type="checkbox" id="free"> <span data-i18n="freeOnly">Free only</span></label>
+        <label class="toggle"><input type="checkbox" id="online"> <span data-i18n="includeOnline">Include online</span></label>
+        <label class="toggle"><input type="checkbox" id="ongoing"> <span data-i18n="showOngoing">Show long-running (exhibitions, courses)</span></label>
+        <span class="sources" id="sources"></span>
+        <button class="link" id="reset" data-i18n="reset">Reset filters</button>
+      </div>
+    </section>
+
+    <div class="status" id="status"></div>
+    <section id="results" class="results" aria-live="polite"></section>
+    <div class="more-wrap"><button id="more" class="more" hidden data-i18n="loadMore">Load more</button></div>
+  </main>
+
+  <footer class="wrap foot">
+    <p data-i18n="footer">Data is collected automatically several times a day from public event listings. Always check the organiser's page for the final details.</p>
+    <p id="sourceStats"></p>
+    <p><a href="https://github.com/" id="repoLink" rel="noopener">GitHub</a></p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
