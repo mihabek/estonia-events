@@ -264,7 +264,7 @@
     $('free').checked = state.free; $('online').checked = state.online; $('ongoing').checked = state.ongoing;
 
     // sources
-    const srcs = Object.keys(DATA.sources || SOURCE_NAMES);
+    const srcs = Object.entries(DATA.sources || {}).filter(([, v]) => v.count > 0).map(([k]) => k);
     $('sources').innerHTML = srcs.map((s) => `<button class="chip${state.src.has(s) ? ' on' : ''}" data-src="${s}" title="${esc(s)}">${SOURCE_NAMES[s] || s}</button>`).join('');
 
     if (DATA.generatedAt) {

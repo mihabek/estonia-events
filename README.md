@@ -15,6 +15,8 @@ data is refreshed automatically by a GitHub Actions workflow every six hours.
 | [Meetup](https://www.meetup.com) | Meetups in Tallinn and Tartu | Page data embedded in the search page |
 
 Facebook Events has no public API and actively blocks scraping, so it is not included.
+Eventbrite blocks requests coming from GitHub-hosted runners (HTTP 405), so its events only
+appear when the scraper is run from a normal network, e.g. locally, and the result is committed.
 See "Adding a source" below for other candidates.
 
 ## How it works
