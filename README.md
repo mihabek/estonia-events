@@ -13,6 +13,8 @@ data is refreshed automatically by a GitHub Actions workflow every six hours.
 | [Tartu Kultuuriaken](https://kultuuriaken.tartu.ee) | Tartu and South Estonia culture calendar, including free events | Public JSON API (`/api/events`) |
 | [Eventbrite](https://www.eventbrite.com) | Expat and English-language events | schema.org JSON-LD embedded in the search pages |
 | [Meetup](https://www.meetup.com) | Meetups in Tallinn and Tartu | Page data embedded in the search page |
+| [Apollo Kino](https://www.apollokino.ee) | Cinema showtimes in every Apollo cinema in Estonia (separate *Cinema* tab) | Public JSON (`/xml/Schedule/`, `/xml/Events/`) |
+| [Kino Artis](https://www.kino.ee) | Arthouse cinema in Tallinn (Cinema tab) | Same JSON interface as Apollo |
 
 Facebook Events has no public API and actively blocks scraping, so it is not included.
 Eventbrite blocks requests coming from GitHub-hosted runners (HTTP 405), so its events only
@@ -21,6 +23,9 @@ See "Adding a source" below for other candidates.
 
 ## How it works
 
+- `scripts/fetch-cinema.mjs` fetches cinema showtimes for the next month into `data/cinema.json`
+  (`cinemas`, `movies`, `shows`). The site shows them in a separate **Cinema** tab with city, cinema,
+  date and language (spoken or subtitles) filters, one card per film per day.
 - `scripts/fetch-events.mjs` (Node 20+, no dependencies) fetches every source, normalises
   the events into one schema, detects which languages each event's text is in (ET / RU / EN),
   maps source categories onto a common set, de-duplicates events that appear in several
@@ -36,11 +41,12 @@ See "Adding a source" below for other candidates.
 
 ```bash
 node scripts/fetch-events.mjs
-npx serve .          # or: python -m http.server
+node scripts/fetch-cinema.mjs
+node scripts/serve.mjs
 ```
 
 Then open http://localhost:3000 (the page needs to be served over HTTP, not opened as a file,
-because it fetches `data/events.json`).
+because it fetches the JSON data files).
 
 ## Deploy to GitHub Pages
 

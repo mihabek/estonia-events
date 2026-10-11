@@ -139,3 +139,35 @@ details.ongoing-box summary { cursor: pointer; font-weight: 600; color: var(--mu
   .toggles { gap: 8px 14px; }
   .sources { width: 100%; }
 }
+
+/* ---- Events / Cinema tabs ---- */
+.tabs { display: flex; gap: 4px; margin-top: 16px; border-bottom: 1px solid var(--border); }
+.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 8px 14px; font-weight: 600; color: var(--muted); cursor: pointer; margin-bottom: -1px; }
+.tabs button.on { color: var(--text); border-bottom-color: var(--accent); }
+.filters { margin-top: 12px; }
+body[data-mode="events"] .cinema-only { display: none !important; }
+body[data-mode="cinema"] .events-only { display: none !important; }
+.hint { font-size: 13px; color: var(--muted); }
+
+/* ---- Cinema cards ---- */
+.cgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 12px; }
+.film { display: grid; grid-template-columns: 96px 1fr; gap: 12px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px; box-shadow: var(--shadow); }
+.film .poster { width: 96px; height: 142px; border-radius: 8px; background: var(--surface-2) center/cover no-repeat; overflow: hidden; display: flex; align-items: center; justify-content: center; font-size: 32px; }
+.film .poster img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.film .ftitle { font-weight: 700; font-size: 15px; line-height: 1.25; text-decoration: none; }
+.film .ftitle:hover { color: var(--accent); }
+.film .osub { font-size: 12.5px; color: var(--muted); }
+.film .finfo { font-size: 12px; color: var(--muted); margin-top: 2px; display: flex; flex-wrap: wrap; gap: 4px 8px; }
+.film .fsyn { font-size: 12.5px; color: var(--muted); margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.film .cin { margin-top: 6px; }
+.film .cin .cname { font-size: 12px; font-weight: 600; margin: 4px 0 3px; }
+.film .times { display: flex; flex-wrap: wrap; gap: 4px; }
+.film .time { display: inline-flex; align-items: baseline; gap: 4px; background: var(--chip); border-radius: 7px; padding: 3px 7px; font-size: 13px; font-weight: 600; text-decoration: none; }
+.film .time:hover { background: var(--chip-on); color: var(--chip-on-text); }
+.film .time small { font-weight: 500; font-size: 10px; opacity: .75; }
+.film .time .f3d { font-size: 10px; color: var(--accent); }
+@media (max-width: 640px) {
+  .cgrid { grid-template-columns: 1fr; }
+  .film { grid-template-columns: 80px 1fr; }
+  .film .poster { width: 80px; height: 118px; }
+}

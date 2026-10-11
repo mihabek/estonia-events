@@ -32,6 +32,9 @@ jobs:
       - name: Fetch events
         run: node scripts/fetch-events.mjs
 
+      - name: Fetch cinema showtimes
+        run: node scripts/fetch-cinema.mjs
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"

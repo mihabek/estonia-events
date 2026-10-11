@@ -28,6 +28,11 @@
   </header>
 
   <main class="wrap">
+    <div class="tabs" id="tabs" role="tablist">
+      <button role="tab" data-mode="events" data-i18n="tabEvents">Events</button>
+      <button role="tab" data-mode="cinema" data-i18n="tabCinema">Cinema</button>
+    </div>
+
     <section class="filters" id="filters">
       <div class="row">
         <label class="search">
@@ -35,6 +40,7 @@
           <input type="search" id="q" data-i18n-placeholder="searchPlaceholder" placeholder="Search events, venues, artists…" autocomplete="off">
         </label>
         <select id="city" aria-label="City"></select>
+        <select id="cinema" class="cinema-only" aria-label="Cinema"></select>
         <select id="lang" aria-label="Content language">
           <option value="" data-i18n="anyLang">Any language</option>
           <option value="et" data-i18n="langEt">Estonian</option>
@@ -49,14 +55,18 @@
         <label><span data-i18n="to">To</span> <input type="date" id="to"></label>
       </div>
 
-      <div class="row chips" id="cats"></div>
+      <div class="row chips events-only" id="cats"></div>
 
-      <div class="row toggles">
+      <div class="row toggles events-only">
         <label class="toggle"><input type="checkbox" id="free"> <span data-i18n="freeOnly">Free only</span></label>
         <label class="toggle"><input type="checkbox" id="online"> <span data-i18n="includeOnline">Include online</span></label>
         <label class="toggle"><input type="checkbox" id="ongoing"> <span data-i18n="showOngoing">Show long-running (exhibitions, courses)</span></label>
         <span class="sources" id="sources"></span>
         <button class="link" id="reset" data-i18n="reset">Reset filters</button>
+      </div>
+      <div class="row toggles cinema-only">
+        <span class="hint" data-i18n="cinemaHint">Times link to tickets. Spoken language / subtitles are shown next to each time.</span>
+        <button class="link" id="reset2" data-i18n="reset">Reset filters</button>
       </div>
     </section>
 
