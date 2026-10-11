@@ -23,7 +23,8 @@ const DATA_DIR = path.join(ROOT, 'data');
 const CACHE_DIR = path.join(DATA_DIR, 'cache');
 const OUT_FILE = path.join(DATA_DIR, 'events.json');
 const TZ = 'Europe/Tallinn';
-const UA = 'Mozilla/5.0 (compatible; EstoniaEventsBot/1.0; +https://github.com/)';
+// A browser-like UA: some sites (Eventbrite, Meetup) serve a challenge page to unknown bots.
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36';
 
 const NOW = new Date();
 const DAY = 86400000;

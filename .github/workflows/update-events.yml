@@ -39,8 +39,17 @@ jobs:
           git add data
           if git diff --cached --quiet; then
             echo "No changes"
-          else
-            git commit -m "data: refresh events $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git pull --rebase origin main
-            git push
+            exit 0
           fi
+          msg="data: refresh events $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git commit -m "$msg"
+          # Generated files: if someone pushed meanwhile, re-create our commit on top
+          # of the new tip instead of trying to merge JSON.
+          for attempt in 1 2 3 4; do
+            git push && exit 0
+            echo "Push rejected, retrying on top of latest main (attempt $attempt)"
+            git fetch origin main
+            git reset --soft origin/main
+            git commit -m "$msg" || true
+          done
+          exit 1
