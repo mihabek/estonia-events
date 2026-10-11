@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-10-11T19:37:11.004Z",
+  "generatedAt": "2026-10-11T19:40:52.376Z",
   "count": 6232,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 315
-    },
-    "tartu": {
-      "ok": true,
-      "count": 1240,
-      "ms": 3192
-    },
-    "piletilevi": {
-      "ok": true,
-      "count": 2261,
-      "ms": 3807
+      "ms": 341
     },
     "meetup": {
       "ok": true,
       "count": 24,
-      "ms": 5661
+      "ms": 1868
+    },
+    "tartu": {
+      "ok": true,
+      "count": 1240,
+      "ms": 3037
+    },
+    "piletilevi": {
+      "ok": true,
+      "count": 2261,
+      "ms": 6299
     },
     "fienta": {
       "ok": true,
       "count": 3091,
-      "ms": 8887
+      "ms": 9207
     }
   },
   "cities": {
