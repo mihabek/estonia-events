@@ -33,6 +33,7 @@ jobs:
         run: node scripts/fetch-events.mjs
 
       - name: Fetch cinema showtimes
+        continue-on-error: true
         run: node scripts/fetch-cinema.mjs
 
       - name: Commit updated data

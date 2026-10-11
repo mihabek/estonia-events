@@ -240,16 +240,28 @@
   }
 
   // --- cinema mode -----------------------------------------------------------
+  let cinemaLive = null; // promise of the live fetch, started once
   async function loadCinema() {
     if (CINEMA) return true;
+    // 1) committed snapshot for an instant first paint
     try {
       const res = await fetch('data/cinema.json', { cache: 'no-cache' });
-      CINEMA = await res.json();
-      return true;
-    } catch (e) {
-      $('status').textContent = 'Could not load data/cinema.json';
-      return false;
+      const snap = await res.json();
+      if (snap.shows && snap.shows.length) CINEMA = snap;
+    } catch (e) { /* fall through to live */ }
+    // 2) live data straight from the cinemas' own APIs (they allow CORS); re-render when it lands
+    if (!cinemaLive && window.CinemaSources) {
+      const getJSON = (u) => fetch(u, { signal: AbortSignal.timeout(30000) }).then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); });
+      cinemaLive = window.CinemaSources.fetchAll(getJSON, { days: 31 }).then((live) => {
+        if (live.shows.length >= 50) {
+          CINEMA = live;
+          if (state.mode === 'cinema') { buildStatic(); update(false); }
+        }
+      }).catch(() => {});
+      if (!CINEMA) await cinemaLive; // nothing to show yet: wait for live
     }
+    if (!CINEMA) { $('status').textContent = 'Could not load cinema data'; return false; }
+    return true;
   }
 
   function cinemaCityOf(show) { return CINEMA.cinemas[show.c]?.c || null; }

@@ -1,0 +1,29 @@
+name: Diagnose source access
+
+# Manual helper: shows which event/cinema endpoints are reachable from a GitHub runner
+# and which header variants get through. Safe to delete.
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe endpoints
+        run: |
+          probe() {
+            local label="$1"; shift
+            local code
+            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 25 "$@") || code="ERR"
+            echo "$code  $label"
+          }
+          for url in "https://www.apollokino.ee/xml/Schedule/?nrOfDays=1" "https://www.kino.ee/xml/Schedule/?nrOfDays=1" "https://www.eventbrite.com/d/estonia/events/"; do
+            echo "== $url"
+            probe "curl default UA"           "$url"
+            probe "chrome UA"                 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" "$url"
+            probe "chrome UA + accept json"   -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" -H "Accept: application/json" "$url"
+            probe "chrome UA + browser hdrs"  -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" -H "Accept-Language: et,en;q=0.8" -H "Sec-Fetch-Mode: navigate" -H "Sec-Fetch-Site: none" -H "Sec-Fetch-Dest: document" -H "Upgrade-Insecure-Requests: 1" "$url"
+            probe "firefox UA"                -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" "$url"
+            probe "googlebot UA"              -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "$url"
+            probe "http1.1"                   --http1.1 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" "$url"
+          done
