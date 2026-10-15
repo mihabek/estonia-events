@@ -1,48 +1,48 @@
 {
-  "generatedAt": "2026-10-14T21:48:51.494Z",
-  "count": 6545,
+  "generatedAt": "2026-10-15T04:53:13.185Z",
+  "count": 6544,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 423
+      "ms": 210
     },
     "tartu": {
       "ok": true,
       "count": 1246,
-      "ms": 3739
-    },
-    "piletilevi": {
-      "ok": true,
-      "count": 2256,
-      "ms": 4931
+      "ms": 3857
     },
     "meetup": {
       "ok": true,
       "count": 24,
-      "ms": 6226
+      "ms": 4942
+    },
+    "piletilevi": {
+      "ok": true,
+      "count": 2255,
+      "ms": 5219
     },
     "fienta": {
       "ok": true,
-      "count": 3433,
-      "ms": 9732
+      "count": 3432,
+      "ms": 14160
     }
   },
   "cities": {
-    "Tallinn": 2900,
-    "Tartu": 1464,
+    "Tallinn": 2902,
+    "Tartu": 1463,
     "Pärnu": 345,
     "Rakvere": 112,
-    "Narva": 89,
+    "Narva": 88,
     "Viljandi": 37,
     "Kuressaare": 34,
     "Haapsalu": 34,
     "Elva vald": 33,
-    "Võru": 31,
+    "Võru": 32,
     "Jõgeva": 27,
     "Jõhvi": 24,
     "Keila": 23,
-    "Paide": 23,
+    "Paide": 22,
     "Viimsi vald": 21,
     "Otepää vald": 20,
     "Tõstamaa osavald": 20,
@@ -58,9 +58,9 @@
     "Türi": 13,
     "Laagri": 12,
     "Haljala vald": 12,
+    "Viimsi": 12,
     "Tartu vald": 12,
     "Rapla": 12,
-    "Viimsi": 11,
     "Kaagna": 11,
     "Põlva": 11,
     "Reiu": 11,
@@ -82,6 +82,7 @@
     "Kärdla": 6,
     "Hüüru": 6,
     "Elva": 6,
+    "Laulasmaa": 6,
     "Raasiku vald": 6,
     "Narva-Jõesuu": 6,
     "Kuusalu vald": 6,
@@ -89,7 +90,6 @@
     "Kiili": 5,
     "Peipsiääre vald": 5,
     "Saku vald": 5,
-    "Laulasmaa": 5,
     "Saladus": 5,
     "Sillamäe": 4,
     "Põltsamaa vald": 4,
@@ -147,6 +147,7 @@
     "Tõstamaa": 2,
     "Märjamaa vald": 2,
     "Antsla": 2,
+    "Seljametsa": 2,
     "Põhja-Sakala vald": 2,
     "Vaiatu": 2,
     "Pühajärve": 2,
@@ -220,7 +221,6 @@
     "Vilimeeste": 1,
     "Varstu": 1,
     "Ramsi": 1,
-    "Pürksi": 1,
     "Pagari": 1,
     "Õisu": 1,
     "Sõmeru": 1,
@@ -273,7 +273,6 @@
     "Triigi": 1,
     "Suure-Jaani": 1,
     "Nasva": 1,
-    "Seljametsa": 1,
     "Porkuni": 1,
     "Mikitamäe": 1,
     "Padise vald": 1,
@@ -294,18 +293,18 @@
     "Oiu": 1
   },
   "categories": {
-    "exhibition": 803,
+    "exhibition": 802,
     "family": 876,
-    "community": 440,
-    "food": 315,
-    "other": 209,
-    "business": 623,
+    "community": 438,
+    "food": 316,
+    "other": 208,
+    "business": 622,
     "tour": 254,
     "sport": 238,
-    "music": 1190,
-    "theatre": 2351,
-    "dance": 313,
-    "film": 591,
+    "music": 1193,
+    "theatre": 2352,
+    "dance": 312,
+    "film": 593,
     "lecture": 233,
     "festival": 401,
     "comedy": 273,
@@ -313,9 +312,9 @@
     "market": 11
   },
   "langs": {
-    "ru": 364,
-    "et": 5577,
-    "en": 855
+    "ru": 363,
+    "et": 5574,
+    "en": 857
   },
   "unknownCategoryKeys": {}
 }
