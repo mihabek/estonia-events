@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-10-15T21:32:24.985Z",
-  "count": 6624,
+  "generatedAt": "2026-10-16T04:43:57.990Z",
+  "count": 6646,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 250
+      "ms": 605
     },
     "tartu": {
       "ok": true,
-      "count": 1237,
-      "ms": 3616
+      "count": 1259,
+      "ms": 4263
     },
     "piletilevi": {
       "ok": true,
       "count": 2315,
-      "ms": 4763
+      "ms": 5525
     },
     "meetup": {
       "ok": true,
       "count": 23,
-      "ms": 5863
+      "ms": 5798
     },
     "fienta": {
       "ok": true,
       "count": 3449,
-      "ms": 13464
+      "ms": 10474
     }
   },
   "cities": {
     "Tallinn": 2958,
-    "Tartu": 1470,
+    "Tartu": 1492,
     "Pärnu": 355,
     "Rakvere": 109,
     "Narva": 88,
@@ -293,7 +293,7 @@
     "Oiu": 1
   },
   "categories": {
-    "exhibition": 831,
+    "exhibition": 832,
     "family": 906,
     "community": 438,
     "food": 325,
@@ -304,8 +304,8 @@
     "music": 1214,
     "theatre": 2369,
     "dance": 311,
-    "film": 592,
-    "lecture": 226,
+    "film": 610,
+    "lecture": 229,
     "festival": 401,
     "comedy": 270,
     "party": 51,
@@ -313,7 +313,7 @@
   },
   "langs": {
     "ru": 374,
-    "et": 5637,
+    "et": 5659,
     "en": 870
   },
   "unknownCategoryKeys": {}
