@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-10-19T22:29:15.867Z",
-  "count": 6510,
+  "generatedAt": "2026-10-20T05:01:28.815Z",
+  "count": 6513,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 404
+      "ms": 377
     },
     "tartu": {
       "ok": true,
-      "count": 1225,
-      "ms": 2749
+      "count": 1228,
+      "ms": 3540
     },
     "piletilevi": {
       "ok": true,
       "count": 2345,
-      "ms": 4959
+      "ms": 4338
     },
     "meetup": {
       "ok": true,
       "count": 24,
-      "ms": 5543
+      "ms": 5214
     },
     "fienta": {
       "ok": true,
-      "count": 3326,
-      "ms": 10037
+      "count": 3327,
+      "ms": 9249
     }
   },
   "cities": {
-    "Tallinn": 2881,
-    "Tartu": 1475,
+    "Tallinn": 2878,
+    "Tartu": 1478,
     "Pärnu": 333,
     "Rakvere": 108,
     "Narva": 96,
@@ -38,9 +38,9 @@
     "Kuressaare": 33,
     "Haapsalu": 32,
     "Võru": 32,
-    "Elva vald": 29,
+    "Jõgeva": 29,
     "Keila": 29,
-    "Jõgeva": 28,
+    "Elva vald": 28,
     "Jõhvi": 24,
     "Otepää vald": 21,
     "Tõstamaa osavald": 20,
@@ -48,13 +48,13 @@
     "Viimsi vald": 19,
     "Paide": 19,
     "Anija vald": 17,
-    "Kastre vald": 16,
+    "Kastre vald": 17,
     "Viimsi": 15,
-    "Haabneeme": 15,
     "Värska": 15,
     "Tartu vald": 14,
     "Põlva vald": 14,
     "Kose vald": 14,
+    "Haabneeme": 14,
     "Ülenurme": 13,
     "Türi": 13,
     "Saue vald": 12,
@@ -68,12 +68,12 @@
     "Saku": 10,
     "Kaagna": 10,
     "Tapa vald": 10,
+    "Kanepi vald": 8,
     "Vändra vald": 8,
     "Laagri": 8,
     "Loo": 8,
     "Narva-Jõesuu": 8,
     "Kostivere": 8,
-    "Kanepi vald": 7,
     "Põltsamaa": 7,
     "Sindi": 7,
     "Torma": 6,
@@ -286,19 +286,19 @@
     "Oiu": 1
   },
   "categories": {
-    "exhibition": 807,
-    "family": 871,
-    "community": 423,
-    "food": 324,
+    "exhibition": 808,
+    "family": 872,
+    "community": 424,
+    "food": 323,
     "other": 213,
-    "business": 627,
-    "tour": 216,
-    "sport": 224,
+    "business": 629,
+    "tour": 217,
+    "sport": 221,
     "music": 1180,
     "theatre": 2348,
-    "dance": 274,
+    "dance": 273,
     "film": 595,
-    "lecture": 228,
+    "lecture": 231,
     "festival": 418,
     "party": 39,
     "comedy": 262,
@@ -306,8 +306,8 @@
   },
   "langs": {
     "ru": 366,
-    "et": 5579,
-    "en": 817
+    "et": 5584,
+    "en": 815
   },
   "unknownCategoryKeys": {}
 }
