@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-10-20T21:43:50.771Z",
+  "generatedAt": "2026-10-21T05:01:24.369Z",
   "count": 6559,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 381
+      "ms": 210
     },
     "tartu": {
       "ok": true,
       "count": 1231,
-      "ms": 3553
+      "ms": 2999
     },
     "piletilevi": {
       "ok": true,
       "count": 2360,
-      "ms": 4501
+      "ms": 4316
     },
     "meetup": {
       "ok": true,
       "count": 23,
-      "ms": 5992
+      "ms": 5264
     },
     "fienta": {
       "ok": true,
       "count": 3336,
-      "ms": 12326
+      "ms": 9274
     }
   },
   "cities": {
@@ -292,7 +292,7 @@
     "community": 428,
     "food": 322,
     "other": 218,
-    "business": 638,
+    "business": 637,
     "tour": 218,
     "sport": 233,
     "music": 1201,
@@ -308,7 +308,7 @@
   "langs": {
     "ru": 367,
     "et": 5629,
-    "en": 814
+    "en": 815
   },
   "unknownCategoryKeys": {}
 }
