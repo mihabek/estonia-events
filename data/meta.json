@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-22T21:45:53.119Z",
-  "count": 6643,
+  "generatedAt": "2026-10-23T05:03:48.268Z",
+  "count": 6644,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 295
+      "ms": 205
     },
     "tartu": {
       "ok": true,
-      "count": 1229,
-      "ms": 3166
+      "count": 1230,
+      "ms": 3202
     },
     "piletilevi": {
       "ok": true,
       "count": 2417,
-      "ms": 4520
+      "ms": 4265
     },
     "meetup": {
       "ok": true,
       "count": 24,
-      "ms": 6158
+      "ms": 4604
     },
     "fienta": {
       "ok": true,
-      "count": 3361,
-      "ms": 12224
+      "count": 3365,
+      "ms": 9172
     }
   },
   "cities": {
-    "Tallinn": 2948,
-    "Tartu": 1466,
-    "Pärnu": 342,
+    "Tallinn": 2945,
+    "Tartu": 1467,
+    "Pärnu": 343,
     "Rakvere": 111,
     "Narva": 97,
     "Viljandi": 41,
@@ -39,8 +39,8 @@
     "Võru": 34,
     "Haapsalu": 33,
     "Jõgeva": 31,
+    "Elva vald": 30,
     "Keila": 30,
-    "Elva vald": 29,
     "Anija vald": 28,
     "Paide": 25,
     "Otepää vald": 21,
@@ -49,8 +49,8 @@
     "Tõstamaa osavald": 20,
     "Viimsi vald": 18,
     "Haabneeme": 18,
-    "Kastre vald": 15,
     "Värska": 15,
+    "Kastre vald": 14,
     "Viimsi": 14,
     "Ülenurme": 13,
     "Tartu vald": 13,
@@ -104,8 +104,8 @@
     "Saue": 4,
     "Jüri": 4,
     "Tõrva": 4,
-    "Järvakandi": 4,
     "Peipsiääre vald": 4,
+    "Nurmsi küla": 4,
     "Väätsa": 4,
     "Tähtvere vald": 4,
     "Setomaa vald": 3,
@@ -128,6 +128,7 @@
     "Tornimäe": 3,
     "Koeru vald": 3,
     "Lümanda": 3,
+    "Järvakandi": 3,
     "Sandla": 3,
     "Salmistu": 3,
     "Lääne-Harju vald": 3,
@@ -289,18 +290,18 @@
     "Oiu": 1
   },
   "categories": {
-    "exhibition": 802,
+    "exhibition": 800,
     "family": 862,
     "community": 450,
     "food": 325,
     "other": 238,
-    "business": 660,
-    "tour": 230,
+    "business": 665,
+    "tour": 229,
     "sport": 231,
-    "music": 1234,
-    "theatre": 2395,
-    "dance": 299,
-    "film": 569,
+    "music": 1233,
+    "theatre": 2394,
+    "dance": 298,
+    "film": 570,
     "lecture": 236,
     "festival": 421,
     "party": 42,
@@ -309,7 +310,7 @@
   },
   "langs": {
     "ru": 384,
-    "et": 5704,
+    "et": 5705,
     "en": 811
   },
   "unknownCategoryKeys": {}
