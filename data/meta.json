@@ -1,43 +1,43 @@
 {
-  "generatedAt": "2026-10-27T22:25:27.354Z",
-  "count": 7017,
+  "generatedAt": "2026-10-28T05:56:07.950Z",
+  "count": 7028,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 388
+      "ms": 301
     },
     "tartu": {
       "ok": true,
-      "count": 1211,
-      "ms": 3724
-    },
-    "meetup": {
-      "ok": true,
-      "count": 24,
-      "ms": 5246
+      "count": 1212,
+      "ms": 3263
     },
     "piletilevi": {
       "ok": true,
       "count": 2826,
-      "ms": 6425
+      "ms": 4578
+    },
+    "meetup": {
+      "ok": true,
+      "count": 24,
+      "ms": 6408
     },
     "fienta": {
       "ok": true,
-      "count": 3358,
-      "ms": 14149
+      "count": 3362,
+      "ms": 9393
     }
   },
   "cities": {
-    "Tallinn": 3277,
-    "Tartu": 1515,
-    "Pärnu": 346,
+    "Tallinn": 3282,
+    "Tartu": 1516,
+    "Pärnu": 347,
     "Rakvere": 105,
     "Narva": 94,
     "Viljandi": 41,
     "Jõgeva": 37,
+    "Kuressaare": 36,
     "Elva vald": 36,
-    "Kuressaare": 35,
     "Võru": 35,
     "Haapsalu": 33,
     "Keila": 30,
@@ -50,18 +50,18 @@
     "Haabneeme": 17,
     "Kastre vald": 15,
     "Värska": 15,
+    "Rapla": 15,
     "Põlva": 14,
     "Põlva vald": 14,
-    "Rapla": 14,
     "Viimsi vald": 14,
     "Türi": 13,
     "Ülenurme": 12,
     "Viimsi": 12,
+    "Saku": 12,
     "Kose vald": 12,
     "Saue vald": 11,
     "Tartu vald": 11,
     "Nõo vald": 11,
-    "Saku": 11,
     "Kaagna": 11,
     "Reiu": 11,
     "Haljala vald": 10,
@@ -174,6 +174,7 @@
     "Triigi": 2,
     "Vaiatu": 2,
     "Käru": 2,
+    "Padise": 2,
     "Audru": 2,
     "Kaerepere": 2,
     "Tinu": 2,
@@ -237,7 +238,6 @@
     "Vahastu": 1,
     "Järva-Jaani": 1,
     "Uhti": 1,
-    "Padise": 1,
     "Kavastu": 1,
     "Karepa": 1,
     "Nissi vald": 1,
@@ -288,18 +288,18 @@
     "Oiu": 1
   },
   "categories": {
-    "exhibition": 761,
-    "family": 834,
-    "community": 452,
+    "exhibition": 762,
+    "family": 837,
+    "community": 453,
     "food": 319,
-    "other": 235,
+    "other": 236,
     "business": 679,
     "tour": 227,
-    "sport": 218,
-    "music": 1201,
-    "theatre": 2396,
-    "dance": 311,
-    "film": 1013,
+    "sport": 219,
+    "music": 1203,
+    "theatre": 2400,
+    "dance": 315,
+    "film": 1014,
     "lecture": 223,
     "festival": 848,
     "comedy": 249,
@@ -308,8 +308,8 @@
   },
   "langs": {
     "ru": 367,
-    "et": 6082,
-    "en": 814
+    "et": 6088,
+    "en": 819
   },
   "unknownCategoryKeys": {
     "halloween": 1
