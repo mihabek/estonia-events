@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-10-28T22:42:37.678Z",
-  "count": 7017,
+  "generatedAt": "2026-10-29T06:01:49.079Z",
+  "count": 7029,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 210
+      "ms": 449
     },
     "tartu": {
       "ok": true,
-      "count": 1218,
-      "ms": 3238
+      "count": 1231,
+      "ms": 3681
     },
     "piletilevi": {
       "ok": true,
       "count": 2819,
-      "ms": 5179
+      "ms": 4413
     },
     "meetup": {
       "ok": true,
       "count": 24,
-      "ms": 6760
+      "ms": 5715
     },
     "fienta": {
       "ok": true,
       "count": 3353,
-      "ms": 10757
+      "ms": 9186
     }
   },
   "cities": {
     "Tallinn": 3263,
-    "Tartu": 1520,
+    "Tartu": 1533,
     "Pärnu": 337,
     "Rakvere": 104,
     "Narva": 98,
@@ -56,11 +56,11 @@
     "Põlva": 13,
     "Viimsi": 13,
     "Ülenurme": 12,
+    "Tartu vald": 12,
     "Türi": 12,
     "Saku": 12,
     "Kose vald": 12,
     "Saue vald": 11,
-    "Tartu vald": 11,
     "Nõo vald": 11,
     "Kaagna": 11,
     "Reiu": 11,
@@ -69,10 +69,10 @@
     "Tapa vald": 10,
     "Kanepi vald": 9,
     "Tabasalu": 9,
-    "Luunja vald": 9,
     "Põltsamaa": 9,
     "Vändra vald": 8,
     "Loo": 8,
+    "Luunja vald": 8,
     "Valga": 8,
     "Saku vald": 7,
     "Jüri": 7,
@@ -298,11 +298,11 @@
     "business": 675,
     "tour": 231,
     "sport": 217,
-    "music": 1221,
+    "music": 1222,
     "theatre": 2376,
     "dance": 316,
-    "film": 1005,
-    "lecture": 223,
+    "film": 1006,
+    "lecture": 234,
     "festival": 849,
     "comedy": 253,
     "party": 46,
@@ -310,8 +310,8 @@
   },
   "langs": {
     "ru": 364,
-    "et": 6077,
-    "en": 820
+    "et": 6088,
+    "en": 822
   },
   "unknownCategoryKeys": {
     "halloween": 1
