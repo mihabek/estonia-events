@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-10-29T22:51:42.015Z",
-  "count": 7065,
+  "generatedAt": "2026-10-30T06:02:07.543Z",
+  "count": 7073,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 549
+      "ms": 491
     },
     "tartu": {
       "ok": true,
-      "count": 1227,
-      "ms": 4272
+      "count": 1234,
+      "ms": 3616
     },
     "meetup": {
       "ok": true,
       "count": 24,
-      "ms": 5541
+      "ms": 5132
     },
     "piletilevi": {
       "ok": true,
       "count": 2831,
-      "ms": 8512
+      "ms": 7172
     },
     "fienta": {
       "ok": true,
-      "count": 3371,
-      "ms": 10610
+      "count": 3372,
+      "ms": 10742
     }
   },
   "cities": {
-    "Tallinn": 3253,
-    "Tartu": 1522,
+    "Tallinn": 3252,
+    "Tartu": 1529,
     "Pärnu": 345,
     "Rakvere": 105,
     "Narva": 101,
@@ -80,12 +80,12 @@
     "Kärdla": 7,
     "Kostivere": 7,
     "Elva": 7,
+    "Narva-Jõesuu": 7,
     "Kiili": 6,
     "Lubja": 6,
     "Räpina": 6,
     "Kuusalu vald": 6,
     "Kurtna": 6,
-    "Narva-Jõesuu": 6,
     "Torma": 5,
     "Mustvee vald": 5,
     "Kiili vald": 5,
@@ -305,21 +305,21 @@
     "other": 237,
     "business": 719,
     "tour": 231,
-    "sport": 213,
+    "sport": 214,
     "music": 1229,
-    "theatre": 2384,
-    "dance": 318,
+    "theatre": 2387,
+    "dance": 317,
     "film": 1008,
-    "lecture": 224,
-    "festival": 849,
+    "lecture": 229,
+    "festival": 850,
     "party": 48,
     "comedy": 255,
     "market": 11
   },
   "langs": {
     "ru": 370,
-    "et": 6125,
-    "en": 811
+    "et": 6133,
+    "en": 812
   },
   "unknownCategoryKeys": {
     "halloween": 1
