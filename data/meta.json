@@ -1,44 +1,44 @@
 {
-  "generatedAt": "2026-11-01T22:12:01.496Z",
-  "count": 6786,
+  "generatedAt": "2026-11-02T06:27:25.264Z",
+  "count": 6785,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 290
+      "ms": 426
     },
     "tartu": {
       "ok": true,
-      "count": 1179,
-      "ms": 3177
+      "count": 1182,
+      "ms": 3782
+    },
+    "meetup": {
+      "ok": true,
+      "count": 25,
+      "ms": 4790
     },
     "piletilevi": {
       "ok": true,
       "count": 2770,
-      "ms": 4551
-    },
-    "meetup": {
-      "ok": true,
-      "count": 24,
-      "ms": 7084
+      "ms": 5086
     },
     "fienta": {
       "ok": true,
-      "count": 3184,
-      "ms": 9857
+      "count": 3183,
+      "ms": 9115
     }
   },
   "cities": {
     "Tallinn": 3140,
-    "Tartu": 1471,
-    "Pärnu": 355,
+    "Tartu": 1473,
+    "Pärnu": 354,
     "Rakvere": 97,
-    "Narva": 92,
+    "Narva": 91,
     "Viljandi": 43,
-    "Jõgeva": 40,
+    "Jõgeva": 41,
     "Kuressaare": 39,
     "Haapsalu": 39,
-    "Võru": 34,
+    "Võru": 36,
     "Elva vald": 31,
     "Keila": 29,
     "Anija vald": 28,
@@ -58,6 +58,7 @@
     "Türi": 12,
     "Viimsi": 12,
     "Kose vald": 12,
+    "Ülenurme": 11,
     "Tartu vald": 11,
     "Valga": 11,
     "Saku": 11,
@@ -65,7 +66,6 @@
     "Reiu": 11,
     "Saue vald": 10,
     "Kanepi vald": 10,
-    "Ülenurme": 10,
     "Kaagna": 10,
     "Tapa vald": 10,
     "Sindi": 9,
@@ -96,6 +96,7 @@
     "Kiili vald": 4,
     "Lääne-Harju vald": 4,
     "Kotinuka": 4,
+    "Tõrva": 4,
     "Järvakandi": 4,
     "Raasiku vald": 4,
     "Kohtla-Järve": 4,
@@ -109,7 +110,6 @@
     "Peetri": 3,
     "Koeru vald": 3,
     "Lümanda": 3,
-    "Tõrva": 3,
     "Tõrva vald": 3,
     "Sandla": 3,
     "Tamsalu": 3,
@@ -120,7 +120,6 @@
     "Mustjala": 3,
     "Maarja-Magdaleena": 3,
     "Märjamaa vald": 3,
-    "Hullo": 3,
     "Kadrina": 3,
     "Sõmeru": 3,
     "Kurepalu": 3,
@@ -129,12 +128,12 @@
     "Tori": 2,
     "Jõgeva vald": 2,
     "Lihula vald": 2,
+    "London": 2,
     "Tapa": 2,
     "Ilmatsalu": 2,
     "Viru-Nigula": 2,
     "Aste": 2,
     "Varstu": 2,
-    "Parksepa": 2,
     "Põltsamaa vald": 2,
     "Rakke": 2,
     "Rõuge vald": 2,
@@ -171,6 +170,7 @@
     "Kaerepere": 2,
     "Tinu": 2,
     "Nasva": 2,
+    "Hullo": 2,
     "Haljala": 2,
     "Kurgja": 1,
     "Järveküla": 1,
@@ -180,8 +180,8 @@
     "Surju": 1,
     "Rõuge": 1,
     "München": 1,
-    "London": 1,
     "Klooga": 1,
+    "Parksepa": 1,
     "Juuru": 1,
     "Kuusalu": 1,
     "Munalaskme": 1,
@@ -285,18 +285,18 @@
     "Valgeranna": 1
   },
   "categories": {
-    "exhibition": 703,
-    "family": 771,
+    "exhibition": 701,
+    "family": 770,
     "community": 448,
     "food": 289,
-    "other": 230,
+    "other": 229,
     "business": 684,
     "tour": 213,
     "sport": 194,
-    "music": 1138,
-    "theatre": 2289,
+    "music": 1139,
+    "theatre": 2287,
     "dance": 288,
-    "film": 1052,
+    "film": 1054,
     "lecture": 218,
     "festival": 844,
     "comedy": 244,
@@ -304,9 +304,9 @@
     "market": 12
   },
   "langs": {
-    "ru": 365,
-    "et": 5908,
-    "en": 746
+    "ru": 366,
+    "et": 5907,
+    "en": 745
   },
   "unknownCategoryKeys": {}
 }
