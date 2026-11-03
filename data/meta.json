@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-11-02T21:48:51.793Z",
-  "count": 6840,
+  "generatedAt": "2026-11-03T06:59:36.674Z",
+  "count": 6838,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 248
+      "ms": 484
     },
     "tartu": {
       "ok": true,
-      "count": 1212,
-      "ms": 2878
+      "count": 1207,
+      "ms": 3487
     },
     "meetup": {
       "ok": true,
       "count": 24,
-      "ms": 4710
+      "ms": 4614
     },
     "piletilevi": {
       "ok": true,
       "count": 2765,
-      "ms": 7636
+      "ms": 5293
     },
     "fienta": {
       "ok": true,
-      "count": 3228,
-      "ms": 9515
+      "count": 3230,
+      "ms": 8794
     }
   },
   "cities": {
-    "Tallinn": 3165,
-    "Tartu": 1471,
-    "Pärnu": 360,
+    "Tallinn": 3168,
+    "Tartu": 1469,
+    "Pärnu": 361,
     "Rakvere": 99,
-    "Narva": 92,
+    "Narva": 93,
     "Viljandi": 44,
     "Jõgeva": 40,
     "Kuressaare": 39,
     "Haapsalu": 39,
-    "Võru": 36,
-    "Elva vald": 31,
+    "Võru": 37,
+    "Elva vald": 30,
     "Keila": 30,
     "Kambja vald": 27,
     "Anija vald": 26,
@@ -51,22 +51,22 @@
     "Põlva": 17,
     "Rapla": 15,
     "Kastre vald": 14,
-    "Põlva vald": 14,
     "Haabneeme": 14,
     "Viimsi vald": 14,
     "Värska": 14,
     "Türi": 13,
+    "Põlva vald": 13,
     "Viimsi": 12,
     "Kose vald": 12,
     "Laagri": 12,
     "Ülenurme": 11,
-    "Tartu vald": 11,
     "Valga": 11,
     "Saku": 11,
     "Reiu": 11,
     "Saue vald": 10,
     "Kanepi vald": 10,
     "Kaagna": 10,
+    "Tartu vald": 10,
     "Põltsamaa": 10,
     "Tapa vald": 10,
     "Luunja vald": 9,
@@ -116,7 +116,6 @@
     "Tamsalu": 3,
     "Põhja-Pärnumaa vald": 3,
     "Kivi-Vigala": 3,
-    "Tabivere": 3,
     "Valjala": 3,
     "Mustjala": 3,
     "Maarja-Magdaleena": 3,
@@ -131,6 +130,7 @@
     "Tapa": 2,
     "Ilmatsalu": 2,
     "Viru-Nigula": 2,
+    "Aste": 2,
     "Varstu": 2,
     "Parksepa": 2,
     "Põltsamaa vald": 2,
@@ -156,6 +156,7 @@
     "Melliste": 2,
     "Kärla": 2,
     "Karja": 2,
+    "Tabivere": 2,
     "Otepää": 2,
     "Voore": 2,
     "Triigi": 2,
@@ -231,7 +232,6 @@
     "Kullamaa": 1,
     "Kiisa": 1,
     "Uue-Antsla": 1,
-    "Linnamäe": 1,
     "Õisu": 1,
     "Kaiu": 1,
     "Kilingi-Nõmme": 1,
@@ -262,7 +262,6 @@
     "Pajusti": 1,
     "Tsooru": 1,
     "Antsla": 1,
-    "Aste": 1,
     "Pühajärve": 1,
     "Kaatsi": 1,
     "Vasula": 1,
@@ -294,28 +293,28 @@
     "Valgeranna": 1
   },
   "categories": {
-    "exhibition": 704,
-    "family": 806,
-    "community": 459,
-    "food": 299,
+    "exhibition": 701,
+    "family": 807,
+    "community": 462,
+    "food": 298,
     "other": 233,
-    "business": 681,
-    "tour": 216,
+    "business": 683,
+    "tour": 217,
     "sport": 204,
-    "music": 1166,
-    "theatre": 2304,
-    "dance": 298,
-    "film": 1052,
-    "lecture": 217,
+    "music": 1167,
+    "theatre": 2301,
+    "dance": 299,
+    "film": 1051,
+    "lecture": 218,
     "festival": 846,
     "comedy": 246,
     "party": 40,
     "market": 12
   },
   "langs": {
-    "ru": 369,
+    "ru": 368,
     "et": 5937,
-    "en": 771
+    "en": 770
   },
   "unknownCategoryKeys": {}
 }
