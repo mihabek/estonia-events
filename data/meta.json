@@ -1,42 +1,42 @@
 {
-  "generatedAt": "2026-11-03T19:38:09.898Z",
-  "count": 6908,
+  "generatedAt": "2026-11-04T06:42:35.915Z",
+  "count": 6956,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 216
+      "ms": 507
     },
     "tartu": {
       "ok": true,
-      "count": 1192,
-      "ms": 4526
-    },
-    "meetup": {
-      "ok": true,
-      "count": 20,
-      "ms": 5645
-    },
-    "fienta": {
-      "ok": true,
-      "count": 3279,
-      "ms": 11412
+      "count": 1217,
+      "ms": 3703
     },
     "piletilevi": {
       "ok": true,
-      "count": 2817,
-      "ms": 12929
+      "count": 2822,
+      "ms": 5642
+    },
+    "meetup": {
+      "ok": true,
+      "count": 23,
+      "ms": 6329
+    },
+    "fienta": {
+      "ok": true,
+      "count": 3292,
+      "ms": 11429
     }
   },
   "cities": {
-    "Tallinn": 3191,
-    "Tartu": 1461,
+    "Tallinn": 3198,
+    "Tartu": 1488,
     "Pärnu": 358,
-    "Narva": 102,
-    "Rakvere": 97,
+    "Narva": 103,
+    "Rakvere": 98,
     "Otepää": 53,
     "Viljandi": 44,
-    "Jõgeva": 41,
+    "Jõgeva": 40,
     "Kuressaare": 39,
     "Haapsalu": 39,
     "Võru": 36,
@@ -44,12 +44,12 @@
     "Elva vald": 30,
     "Anija vald": 27,
     "Kambja vald": 27,
-    "Jõhvi": 25,
+    "Jõhvi": 26,
     "Paide": 25,
     "Otepää vald": 20,
     "Tõstamaa osavald": 20,
+    "Põlva": 19,
     "Haljala vald": 18,
-    "Põlva": 17,
     "Rapla": 16,
     "Haabneeme": 15,
     "Põlva vald": 14,
@@ -62,23 +62,23 @@
     "Türi": 12,
     "Ülenurme": 11,
     "Valga": 11,
-    "Tartu vald": 11,
     "Saku": 11,
     "Reiu": 11,
     "Saue vald": 10,
     "Kanepi vald": 10,
     "Kaagna": 10,
+    "Tartu vald": 10,
     "Põltsamaa": 10,
     "Tapa vald": 10,
+    "Luunja vald": 9,
     "Sindi": 9,
-    "Luunja vald": 8,
     "Jõgeva vald": 7,
     "Vändra vald": 7,
+    "Tabasalu": 7,
     "Narva-Jõesuu": 7,
     "Kostivere": 7,
     "Saku vald": 7,
     "Kiili vald": 6,
-    "Tabasalu": 6,
     "Norra": 6,
     "Kuusalu vald": 6,
     "Kurtna": 6,
@@ -111,7 +111,6 @@
     "Kiviõli": 3,
     "Setomaa vald": 3,
     "Peetri": 3,
-    "Koeru vald": 3,
     "Lümanda": 3,
     "Kotinuka": 3,
     "Tõrva vald": 3,
@@ -135,6 +134,7 @@
     "Ilmatsalu": 2,
     "Viru-Nigula": 2,
     "Aste": 2,
+    "Munalaskme": 2,
     "Varstu": 2,
     "Parksepa": 2,
     "Põltsamaa vald": 2,
@@ -153,6 +153,7 @@
     "Raikküla": 2,
     "Vääna-Jõesuu": 2,
     "Kobela": 2,
+    "Koeru vald": 2,
     "Lüganuse vald": 2,
     "Kose-Uuemõisa": 2,
     "Veriora": 2,
@@ -185,7 +186,6 @@
     "Sangaste": 1,
     "Juuru": 1,
     "Kuusalu": 1,
-    "Munalaskme": 1,
     "Rae": 1,
     "Kesklinna": 1,
     "Vanamõisa": 1,
@@ -229,6 +229,7 @@
     "Kullamaa": 1,
     "Kiisa": 1,
     "Uue-Antsla": 1,
+    "Linnamäe": 1,
     "Õisu": 1,
     "Kaiu": 1,
     "Kilingi-Nõmme": 1,
@@ -247,6 +248,7 @@
     "Jõelähtme vald": 1,
     "Lääne-Nigula vald": 1,
     "Kuimetsa": 1,
+    "Halinga": 1,
     "Avinurme": 1,
     "Tammistu": 1,
     "Alatskivi vald": 1,
@@ -291,28 +293,28 @@
     "Valgeranna": 1
   },
   "categories": {
-    "exhibition": 700,
+    "exhibition": 704,
     "family": 823,
-    "community": 458,
+    "community": 467,
     "food": 310,
-    "other": 230,
-    "business": 691,
-    "tour": 224,
-    "sport": 257,
-    "music": 1176,
-    "theatre": 2291,
+    "other": 229,
+    "business": 696,
+    "tour": 226,
+    "sport": 259,
+    "music": 1188,
+    "theatre": 2285,
     "dance": 302,
-    "film": 1049,
-    "lecture": 209,
-    "festival": 850,
+    "film": 1066,
+    "lecture": 220,
+    "festival": 855,
     "comedy": 245,
     "party": 40,
     "market": 12
   },
   "langs": {
-    "ru": 380,
-    "et": 5994,
-    "en": 780
+    "ru": 385,
+    "et": 6041,
+    "en": 782
   },
   "unknownCategoryKeys": {
     "skiing": 51
