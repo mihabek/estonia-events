@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-11-08T22:16:47.089Z",
-  "count": 6732,
+  "generatedAt": "2026-11-09T06:53:56.241Z",
+  "count": 6735,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 263
+      "ms": 273
     },
     "tartu": {
       "ok": true,
-      "count": 1157,
-      "ms": 2849
+      "count": 1158,
+      "ms": 3882
     },
     "meetup": {
       "ok": true,
-      "count": 21,
-      "ms": 5538
+      "count": 23,
+      "ms": 5359
     },
     "piletilevi": {
       "ok": true,
-      "count": 2655,
-      "ms": 10167
+      "count": 2656,
+      "ms": 6891
     },
     "fienta": {
       "ok": true,
-      "count": 3298,
-      "ms": 11060
+      "count": 3299,
+      "ms": 10255
     }
   },
   "cities": {
-    "Tallinn": 3026,
-    "Tartu": 1417,
-    "Pärnu": 358,
+    "Tallinn": 3027,
+    "Tartu": 1418,
+    "Pärnu": 357,
     "Rakvere": 132,
     "Narva": 115,
     "Otepää": 53,
@@ -60,24 +60,24 @@
     "Kastre vald": 12,
     "Laagri": 12,
     "Põltsamaa": 12,
+    "Tartu vald": 12,
     "Põlva vald": 12,
     "Ülenurme": 11,
     "Saku": 11,
     "Reiu": 11,
     "Viimsi": 11,
-    "Tartu vald": 11,
     "Saue vald": 10,
     "Tapa vald": 10,
-    "Luunja vald": 9,
     "Kaagna": 9,
     "Kanepi vald": 8,
-    "Narva-Jõesuu": 8,
+    "Luunja vald": 8,
     "Kostivere": 8,
+    "Jüri": 8,
     "Sindi": 8,
     "Vändra vald": 7,
     "Kiili vald": 7,
+    "Narva-Jõesuu": 7,
     "Elva": 7,
-    "Jüri": 7,
     "Saku vald": 7,
     "Torma": 6,
     "Kuusalu vald": 6,
@@ -295,26 +295,26 @@
   "categories": {
     "exhibition": 695,
     "family": 889,
-    "community": 462,
-    "food": 330,
+    "community": 463,
+    "food": 331,
     "other": 227,
-    "business": 686,
+    "business": 688,
     "tour": 248,
-    "sport": 250,
-    "music": 1166,
+    "sport": 248,
+    "music": 1167,
     "theatre": 2229,
-    "dance": 276,
+    "dance": 275,
     "film": 920,
     "lecture": 214,
     "festival": 738,
-    "party": 39,
     "comedy": 238,
+    "party": 39,
     "market": 10
   },
   "langs": {
     "ru": 376,
-    "et": 5682,
-    "en": 925
+    "et": 5683,
+    "en": 927
   },
   "unknownCategoryKeys": {
     "skiing": 51
