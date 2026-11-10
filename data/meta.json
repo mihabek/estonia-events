@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-11-09T22:31:49.168Z",
-  "count": 6836,
+  "generatedAt": "2026-11-10T07:31:10.786Z",
+  "count": 6834,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 621
+      "ms": 420
     },
     "tartu": {
       "ok": true,
-      "count": 1168,
-      "ms": 4064
-    },
-    "meetup": {
-      "ok": true,
-      "count": 22,
-      "ms": 6209
-    },
-    "fienta": {
-      "ok": true,
-      "count": 3355,
-      "ms": 10679
+      "count": 1171,
+      "ms": 2843
     },
     "piletilevi": {
       "ok": true,
-      "count": 2695,
-      "ms": 20445
+      "count": 2693,
+      "ms": 5966
+    },
+    "meetup": {
+      "ok": true,
+      "count": 23,
+      "ms": 6842
+    },
+    "fienta": {
+      "ok": true,
+      "count": 3352,
+      "ms": 11713
     }
   },
   "cities": {
-    "Tallinn": 3060,
-    "Tartu": 1427,
+    "Tallinn": 3055,
+    "Tartu": 1429,
     "Pärnu": 358,
     "Rakvere": 157,
     "Narva": 115,
@@ -53,8 +53,8 @@
     "Viimsi vald": 17,
     "Valga": 16,
     "Rapla": 16,
+    "Tartu vald": 15,
     "Türi": 14,
-    "Tartu vald": 14,
     "Kõrgessaare": 14,
     "Värska": 14,
     "Kastre vald": 13,
@@ -64,15 +64,15 @@
     "Põlva vald": 12,
     "Ülenurme": 11,
     "Põltsamaa": 11,
+    "Reiu": 11,
     "Viimsi": 11,
-    "Reiu": 10,
     "Saku": 10,
     "Tapa vald": 10,
     "Saue vald": 9,
-    "Luunja vald": 9,
     "Sindi": 9,
     "Kaagna": 9,
     "Narva-Jõesuu": 8,
+    "Luunja vald": 8,
     "Kostivere": 8,
     "Jüri": 8,
     "Kanepi vald": 7,
@@ -98,6 +98,7 @@
     "Lääne-Harju vald": 4,
     "Saue": 4,
     "Valjala": 4,
+    "Nurmsi küla": 4,
     "Peipsiääre vald": 4,
     "Väätsa": 4,
     "Lihula": 4,
@@ -111,13 +112,11 @@
     "Kivi-Vigala": 3,
     "Tabivere": 3,
     "Raasiku": 3,
-    "Nurmsi küla": 3,
     "Mustjala": 3,
     "Lubja": 3,
     "Järvakandi": 3,
     "Koeru vald": 3,
     "Palamuse": 3,
-    "Kaerepere": 3,
     "Audru": 3,
     "Padise": 3,
     "Hullo": 3,
@@ -151,6 +150,7 @@
     "Tõrva vald": 2,
     "Kärla": 2,
     "Karja": 2,
+    "Kaerepere": 2,
     "Voore": 2,
     "Kehra": 2,
     "Vaiatu": 2,
@@ -297,28 +297,28 @@
     "Valgeranna": 1
   },
   "categories": {
-    "exhibition": 723,
-    "family": 901,
-    "community": 469,
+    "exhibition": 721,
+    "family": 902,
+    "community": 467,
     "food": 336,
     "other": 247,
-    "business": 691,
-    "tour": 253,
+    "business": 694,
+    "tour": 255,
     "sport": 257,
-    "music": 1183,
-    "theatre": 2281,
-    "dance": 284,
-    "film": 892,
-    "lecture": 219,
-    "festival": 712,
+    "music": 1182,
+    "theatre": 2280,
+    "dance": 283,
+    "film": 889,
+    "lecture": 221,
+    "festival": 711,
     "comedy": 245,
     "party": 40,
     "market": 10
   },
   "langs": {
-    "ru": 379,
-    "et": 5782,
-    "en": 928
+    "ru": 381,
+    "et": 5777,
+    "en": 930
   },
   "unknownCategoryKeys": {
     "skiing": 51
