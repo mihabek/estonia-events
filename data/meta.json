@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-11-14T22:36:34.695Z",
-  "count": 6539,
+  "generatedAt": "2026-11-15T06:49:37.250Z",
+  "count": 6512,
   "sources": {
+    "eventbrite": {
+      "ok": true,
+      "count": 0,
+      "ms": 431
+    },
     "tartu": {
       "ok": true,
-      "count": 1119,
-      "ms": 2520
+      "count": 1118,
+      "ms": 3793
     },
     "piletilevi": {
       "ok": true,
-      "count": 2525,
-      "ms": 4591
+      "count": 2523,
+      "ms": 4603
     },
     "meetup": {
       "ok": true,
-      "count": 21,
-      "ms": 4571
-    },
-    "eventbrite": {
-      "ok": true,
-      "count": 30,
-      "ms": 11031
+      "count": 23,
+      "ms": 5780
     },
     "fienta": {
       "ok": true,
-      "count": 3230,
-      "ms": 11801
+      "count": 3216,
+      "ms": 11844
     }
   },
   "cities": {
-    "Tallinn": 2803,
-    "Tartu": 1346,
-    "Pärnu": 342,
-    "Rakvere": 200,
-    "Narva": 106,
+    "Tallinn": 2797,
+    "Tartu": 1342,
+    "Pärnu": 338,
+    "Rakvere": 201,
+    "Narva": 104,
     "Otepää": 54,
-    "Viljandi": 51,
+    "Viljandi": 50,
     "Haapsalu": 42,
     "Kuressaare": 41,
     "Jõgeva": 39,
@@ -44,8 +44,8 @@
     "Paide": 28,
     "Põlva": 27,
     "Anija vald": 26,
+    "Jõhvi": 25,
     "Elva vald": 24,
-    "Jõhvi": 24,
     "Kambja vald": 21,
     "Viimsi vald": 21,
     "Otepää vald": 21,
@@ -112,8 +112,8 @@
     "Kehtna": 3,
     "Loo": 3,
     "Tabivere": 3,
-    "Kaerepere": 3,
     "Audru": 3,
+    "Kaerepere": 3,
     "Padise": 3,
     "Hullo": 3,
     "Kadrina": 3,
@@ -136,7 +136,6 @@
     "Tori": 2,
     "Järveküla": 2,
     "Linaküla": 2,
-    "Kolga-Jaani": 2,
     "Käina": 2,
     "Lüganuse vald": 2,
     "Kose-Uuemõisa": 2,
@@ -164,7 +163,6 @@
     "mk": 2,
     "Põhja-Sakala vald": 2,
     "Nissi": 2,
-    "Tornimäe": 2,
     "Lümanda": 2,
     "Järvakandi": 2,
     "Lääneranna vald": 2,
@@ -182,7 +180,6 @@
     "Kurgja": 1,
     "Suur Munamägi": 1,
     "Alliku": 1,
-    "Tarvastu": 1,
     "Võru vald": 1,
     "Kulla": 1,
     "Luua": 1,
@@ -222,6 +219,7 @@
     "Rõuge": 1,
     "Taritu": 1,
     "Kraków": 1,
+    "Brighton and Hove": 1,
     "Parksepa": 1,
     "Maidla": 1,
     "Leesi": 1,
@@ -259,11 +257,13 @@
     "Pühajõe": 1,
     "Anija": 1,
     "Tammiste": 1,
+    "Kolga-Jaani": 1,
     "Laimjala": 1,
     "Valjala-Nurme": 1,
     "Pajusti": 1,
     "Maarja-Magdaleena": 1,
     "Tsooru": 1,
+    "Tornimäe": 1,
     "Antsla": 1,
     "Pühajärve": 1,
     "Kaatsi": 1,
@@ -303,26 +303,26 @@
   "categories": {
     "exhibition": 673,
     "business": 675,
-    "family": 859,
-    "community": 457,
+    "family": 856,
+    "community": 458,
     "food": 317,
-    "other": 267,
-    "tour": 242,
-    "sport": 257,
-    "music": 1147,
-    "theatre": 2319,
-    "dance": 273,
-    "film": 662,
+    "other": 254,
+    "tour": 243,
+    "sport": 259,
+    "music": 1137,
+    "theatre": 2327,
+    "dance": 269,
+    "film": 659,
     "lecture": 201,
-    "festival": 495,
-    "party": 41,
-    "comedy": 281,
+    "festival": 493,
+    "comedy": 276,
+    "party": 35,
     "market": 13
   },
   "langs": {
-    "ru": 384,
-    "et": 5492,
-    "en": 916
+    "ru": 385,
+    "et": 5497,
+    "en": 884
   },
   "unknownCategoryKeys": {
     "skiing": 51,
