@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-11-16T22:20:27.605Z",
-  "count": 6387,
+  "generatedAt": "2026-11-17T08:09:02.596Z",
+  "count": 6401,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 319
+      "ms": 420
     },
     "tartu": {
       "ok": true,
-      "count": 1098,
-      "ms": 3031
-    },
-    "piletilevi": {
-      "ok": true,
-      "count": 2393,
-      "ms": 6172
+      "count": 1109,
+      "ms": 3708
     },
     "meetup": {
       "ok": true,
       "count": 23,
-      "ms": 7534
+      "ms": 4769
+    },
+    "piletilevi": {
+      "ok": true,
+      "count": 2391,
+      "ms": 5028
     },
     "fienta": {
       "ok": true,
-      "count": 3256,
-      "ms": 14658
+      "count": 3263,
+      "ms": 12327
     }
   },
   "cities": {
-    "Tallinn": 2691,
-    "Tartu": 1299,
-    "Pärnu": 335,
-    "Rakvere": 201,
-    "Narva": 98,
-    "Otepää": 54,
-    "Viljandi": 52,
+    "Tallinn": 2692,
+    "Tartu": 1313,
+    "Pärnu": 334,
+    "Rakvere": 202,
+    "Narva": 97,
+    "Otepää": 55,
+    "Viljandi": 51,
     "Haapsalu": 44,
     "Jõgeva": 39,
     "Kuressaare": 38,
-    "Keila": 32,
+    "Keila": 33,
     "Võru": 31,
     "Paide": 29,
     "Põlva": 27,
@@ -68,16 +68,16 @@
     "Kaagna": 11,
     "Saue vald": 10,
     "Viimsi": 10,
-    "Reiu": 10,
     "Saku": 10,
     "Tapa vald": 10,
+    "Reiu": 9,
     "Jõgeva vald": 8,
     "Põltsamaa": 8,
     "Kostivere": 8,
-    "Kohtla-Järve": 8,
     "Vändra vald": 7,
     "Jüri": 7,
     "Elva": 7,
+    "Kohtla-Järve": 7,
     "Narva-Jõesuu": 7,
     "Saku vald": 7,
     "Raasiku vald": 7,
@@ -105,6 +105,7 @@
     "Obinitsa": 4,
     "Tähtvere vald": 4,
     "Koeru vald": 3,
+    "Rae": 3,
     "Palamuse": 3,
     "Peipsiääre vald": 3,
     "Kehtna": 3,
@@ -137,7 +138,6 @@
     "Käina": 2,
     "Lüganuse vald": 2,
     "Kose-Uuemõisa": 2,
-    "Rae": 2,
     "Veriora": 2,
     "Vääna-Jõesuu": 2,
     "Vastse-Kuuste": 2,
@@ -305,28 +305,28 @@
     "Valgeranna": 1
   },
   "categories": {
-    "exhibition": 662,
-    "business": 686,
-    "family": 838,
-    "community": 459,
-    "food": 318,
-    "other": 255,
-    "tour": 231,
+    "exhibition": 665,
+    "business": 690,
+    "family": 836,
+    "community": 461,
+    "food": 317,
+    "other": 257,
+    "tour": 229,
     "sport": 259,
-    "music": 1157,
-    "theatre": 2303,
+    "music": 1156,
+    "theatre": 2302,
     "dance": 282,
-    "film": 541,
-    "lecture": 202,
-    "festival": 388,
+    "film": 547,
+    "lecture": 206,
+    "festival": 387,
     "comedy": 267,
     "party": 34,
     "market": 13
   },
   "langs": {
     "ru": 383,
-    "et": 5368,
-    "en": 888
+    "et": 5382,
+    "en": 887
   },
   "unknownCategoryKeys": {
     "skiing": 51,
