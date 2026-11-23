@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-11-22T19:51:04.182Z",
-  "count": 5874,
+  "generatedAt": "2026-11-23T07:54:21.517Z",
+  "count": 5904,
   "sources": {
-    "eventbrite": {
-      "ok": true,
-      "count": 0,
-      "ms": 299
-    },
     "tartu": {
       "ok": true,
-      "count": 1154,
-      "ms": 3196
-    },
-    "piletilevi": {
-      "ok": true,
-      "count": 2010,
-      "ms": 4542
+      "count": 1149,
+      "ms": 3367
     },
     "meetup": {
       "ok": true,
-      "count": 22,
-      "ms": 4912
+      "count": 23,
+      "ms": 5452
+    },
+    "piletilevi": {
+      "ok": true,
+      "count": 2004,
+      "ms": 6929
+    },
+    "eventbrite": {
+      "ok": true,
+      "count": 33,
+      "ms": 11163
     },
     "fienta": {
       "ok": true,
-      "count": 3032,
-      "ms": 12403
+      "count": 3033,
+      "ms": 12967
     }
   },
   "cities": {
-    "Tallinn": 2425,
-    "Tartu": 1279,
-    "Pärnu": 287,
-    "Rakvere": 189,
-    "Narva": 83,
+    "Tallinn": 2444,
+    "Tartu": 1276,
+    "Pärnu": 288,
+    "Rakvere": 190,
+    "Narva": 85,
     "Otepää": 54,
     "Viljandi": 48,
-    "Haapsalu": 34,
+    "Haapsalu": 37,
     "Elva vald": 33,
+    "Kuressaare": 32,
     "Jõgeva": 32,
-    "Kuressaare": 31,
     "Keila": 29,
     "Võru": 25,
     "Anija vald": 24,
@@ -106,6 +106,7 @@
     "Valjala": 3,
     "Kurepalu": 3,
     "mk": 3,
+    "Sandla": 3,
     "Rõngu": 3,
     "Tõrva": 3,
     "Laitse": 3,
@@ -153,7 +154,6 @@
     "Tapa": 2,
     "Lihula vald": 2,
     "Nasva": 2,
-    "Sandla": 2,
     "Mustjala": 2,
     "Hullo": 2,
     "Aste": 2,
@@ -185,11 +185,12 @@
     "Järlepa": 1,
     "Talinas": 1,
     "Kohila vald": 1,
+    "Gent": 1,
     "Ilmatsalu": 1,
     "Viru-Nigula": 1,
     "Laekvere vald": 1,
     "Kadrina": 1,
-    "Kohila": 1,
+    "Veriora": 1,
     "Varstu": 1,
     "Kernu vald": 1,
     "Elbiku / Ölbäck": 1,
@@ -235,7 +236,6 @@
     "Kärla": 1,
     "Laimjala": 1,
     "Valjala-Nurme": 1,
-    "Pajusti": 1,
     "Maarja-Magdaleena": 1,
     "Mäetaguse": 1,
     "Tsooru": 1,
@@ -287,28 +287,28 @@
     "Valgeranna": 1
   },
   "categories": {
-    "exhibition": 846,
-    "business": 532,
-    "family": 1005,
-    "community": 433,
-    "food": 294,
-    "other": 245,
+    "exhibition": 847,
+    "business": 529,
+    "family": 1012,
+    "community": 436,
+    "food": 296,
+    "other": 261,
     "tour": 220,
-    "sport": 250,
-    "music": 1112,
-    "theatre": 2228,
-    "dance": 274,
-    "film": 218,
-    "lecture": 175,
-    "festival": 111,
-    "comedy": 247,
-    "party": 34,
+    "sport": 249,
+    "music": 1110,
+    "theatre": 2234,
+    "dance": 272,
+    "film": 215,
+    "lecture": 177,
+    "festival": 107,
+    "comedy": 253,
+    "party": 38,
     "market": 13
   },
   "langs": {
     "ru": 370,
     "et": 4867,
-    "en": 866
+    "en": 897
   },
   "unknownCategoryKeys": {
     "skiing": 51,
