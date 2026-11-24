@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-11-24T00:04:42.328Z",
-  "count": 5910,
+  "generatedAt": "2026-11-24T10:06:37.699Z",
+  "count": 5925,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 493
+      "ms": 399
     },
     "tartu": {
       "ok": true,
-      "count": 1142,
-      "ms": 2613
+      "count": 1143,
+      "ms": 2907
     },
     "meetup": {
       "ok": true,
       "count": 22,
-      "ms": 5454
+      "ms": 4596
     },
     "piletilevi": {
       "ok": true,
-      "count": 2001,
-      "ms": 5975
+      "count": 2000,
+      "ms": 5081
     },
     "fienta": {
       "ok": true,
-      "count": 3102,
-      "ms": 12116
+      "count": 3115,
+      "ms": 12549
     }
   },
   "cities": {
-    "Tallinn": 2454,
-    "Tartu": 1276,
+    "Tallinn": 2464,
+    "Tartu": 1275,
     "Pärnu": 286,
     "Rakvere": 198,
-    "Narva": 84,
+    "Narva": 83,
     "Viljandi": 55,
     "Otepää": 54,
     "Haapsalu": 37,
     "Elva vald": 34,
     "Kuressaare": 32,
-    "Jõgeva": 29,
+    "Jõgeva": 30,
     "Keila": 29,
     "Võru": 25,
     "Anija vald": 24,
     "Paide": 21,
     "Otepää vald": 21,
     "Põlva": 20,
+    "Tartu vald": 20,
     "Tõstamaa osavald": 20,
-    "Tartu vald": 19,
     "Kambja vald": 18,
     "Viimsi vald": 18,
     "Kastre vald": 16,
@@ -63,16 +63,16 @@
     "Türi": 11,
     "Viimsi": 11,
     "Põlva vald": 11,
+    "Saku": 11,
     "Kaagna": 11,
     "Luunja vald": 10,
     "Haabneeme": 10,
     "Reiu": 10,
-    "Saku": 10,
     "Tapa vald": 10,
     "Ülenurme": 9,
     "Sindi": 9,
+    "Saue vald": 8,
     "Põltsamaa": 8,
-    "Saue vald": 7,
     "Vändra vald": 7,
     "Torma": 7,
     "Raasiku vald": 7,
@@ -95,6 +95,7 @@
     "Kiili": 4,
     "Laulasmaa": 4,
     "Obinitsa": 4,
+    "Laitse": 4,
     "Lihula": 4,
     "Tähtvere vald": 4,
     "Mooste": 4,
@@ -109,7 +110,7 @@
     "Sandla": 3,
     "Rõngu": 3,
     "Tõrva": 3,
-    "Laitse": 3,
+    "Palamuse": 3,
     "Saue": 3,
     "Tamsalu": 3,
     "Kärdla": 3,
@@ -131,7 +132,6 @@
     "Loo": 2,
     "Põhja-Sakala vald": 2,
     "Kaarepere": 2,
-    "Palamuse": 2,
     "Nissi": 2,
     "Nurmsi küla": 2,
     "Norra": 2,
@@ -151,6 +151,7 @@
     "Lubja": 2,
     "Tinu": 2,
     "Rava": 2,
+    "Luke": 2,
     "Väätsa": 2,
     "Tapa": 2,
     "Lihula vald": 2,
@@ -213,7 +214,6 @@
     "Kehtna": 1,
     "Põltsamaa vald": 1,
     "Alatskivi vald": 1,
-    "Luke": 1,
     "Alatskivi": 1,
     "Vaiatu": 1,
     "Uusna": 1,
@@ -287,28 +287,28 @@
     "Valgeranna": 1
   },
   "categories": {
-    "exhibition": 863,
-    "business": 545,
-    "family": 1024,
+    "exhibition": 865,
+    "business": 542,
+    "family": 1021,
     "community": 457,
-    "food": 303,
-    "other": 247,
-    "tour": 220,
-    "sport": 251,
-    "music": 1115,
-    "theatre": 2240,
-    "dance": 278,
-    "film": 210,
+    "food": 306,
+    "other": 251,
+    "tour": 216,
+    "sport": 253,
+    "music": 1120,
+    "theatre": 2241,
+    "dance": 275,
+    "film": 215,
     "lecture": 170,
-    "festival": 106,
+    "festival": 108,
     "comedy": 246,
     "market": 14,
     "party": 34
   },
   "langs": {
-    "ru": 371,
-    "et": 4901,
-    "en": 869
+    "ru": 370,
+    "et": 4913,
+    "en": 872
   },
   "unknownCategoryKeys": {
     "skiing": 51,
