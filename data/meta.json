@@ -1,48 +1,48 @@
 {
-  "generatedAt": "2026-11-24T22:37:02.804Z",
-  "count": 5942,
+  "generatedAt": "2026-11-25T08:52:00.884Z",
+  "count": 5966,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 289
+      "ms": 300
     },
     "tartu": {
       "ok": true,
-      "count": 1132,
-      "ms": 3298
+      "count": 1156,
+      "ms": 3790
+    },
+    "piletilevi": {
+      "ok": true,
+      "count": 2008,
+      "ms": 7422
     },
     "meetup": {
       "ok": true,
       "count": 22,
-      "ms": 5694
-    },
-    "piletilevi": {
-      "ok": true,
-      "count": 2005,
-      "ms": 8334
+      "ms": 8045
     },
     "fienta": {
       "ok": true,
-      "count": 3138,
-      "ms": 14107
+      "count": 3141,
+      "ms": 15449
     }
   },
   "cities": {
     "Tallinn": 2479,
-    "Tartu": 1279,
-    "Pärnu": 287,
-    "Rakvere": 197,
-    "Narva": 85,
-    "Viljandi": 54,
+    "Tartu": 1305,
+    "Pärnu": 284,
+    "Rakvere": 198,
+    "Narva": 86,
     "Otepää": 54,
+    "Viljandi": 53,
     "Haapsalu": 37,
     "Elva vald": 33,
     "Jõgeva": 33,
-    "Kuressaare": 30,
+    "Kuressaare": 32,
     "Keila": 28,
-    "Võru": 25,
     "Anija vald": 24,
+    "Võru": 24,
     "Otepää vald": 21,
     "Põlva": 20,
     "Paide": 20,
@@ -59,10 +59,10 @@
     "Rapla": 13,
     "Tabasalu": 12,
     "Laagri": 12,
-    "Valga": 12,
     "Türi": 11,
     "Viimsi": 11,
     "Põlva vald": 11,
+    "Valga": 11,
     "Kaagna": 11,
     "Luunja vald": 10,
     "Haabneeme": 10,
@@ -186,7 +186,6 @@
     "Järlepa": 1,
     "Talinas": 1,
     "Kohila vald": 1,
-    "Gent": 1,
     "Ilmatsalu": 1,
     "Viru-Nigula": 1,
     "Laekvere vald": 1,
@@ -286,28 +285,28 @@
     "Valgeranna": 1
   },
   "categories": {
-    "exhibition": 862,
-    "business": 544,
-    "family": 1029,
-    "community": 461,
-    "food": 319,
+    "exhibition": 869,
+    "business": 545,
+    "family": 1031,
+    "community": 464,
+    "food": 320,
     "other": 250,
-    "tour": 225,
-    "sport": 256,
-    "music": 1133,
-    "theatre": 2238,
-    "dance": 278,
-    "film": 214,
-    "lecture": 168,
-    "festival": 108,
+    "tour": 224,
+    "sport": 257,
+    "music": 1137,
+    "theatre": 2250,
+    "dance": 277,
+    "film": 216,
+    "lecture": 170,
+    "festival": 109,
     "comedy": 243,
-    "market": 14,
+    "market": 16,
     "party": 34
   },
   "langs": {
-    "ru": 374,
-    "et": 4920,
-    "en": 879
+    "ru": 376,
+    "et": 4946,
+    "en": 875
   },
   "unknownCategoryKeys": {
     "skiing": 51,
