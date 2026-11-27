@@ -1,64 +1,64 @@
 {
-  "generatedAt": "2026-11-26T21:43:55.455Z",
-  "count": 6024,
+  "generatedAt": "2026-11-27T08:49:08.283Z",
+  "count": 6082,
   "sources": {
     "eventbrite": {
       "ok": true,
       "count": 0,
-      "ms": 467
+      "ms": 471
     },
     "tartu": {
       "ok": true,
-      "count": 1139,
-      "ms": 2877
+      "count": 1156,
+      "ms": 4187
     },
     "meetup": {
       "ok": true,
-      "count": 22,
-      "ms": 5371
+      "count": 21,
+      "ms": 4948
     },
     "piletilevi": {
       "ok": true,
-      "count": 2046,
-      "ms": 7497
+      "count": 2044,
+      "ms": 6554
     },
     "fienta": {
       "ok": true,
-      "count": 3162,
-      "ms": 11219
+      "count": 3198,
+      "ms": 13574
     }
   },
   "cities": {
-    "Tallinn": 2545,
-    "Tartu": 1276,
+    "Tallinn": 2547,
+    "Tartu": 1300,
     "Pärnu": 264,
-    "Rakvere": 197,
+    "Rakvere": 198,
     "Narva": 87,
     "Viljandi": 55,
     "Otepää": 54,
-    "Kuressaare": 44,
-    "Haapsalu": 38,
-    "Jõgeva": 34,
+    "Kuressaare": 45,
+    "Jõgeva": 45,
+    "Haapsalu": 39,
     "Elva vald": 33,
     "Hara": 28,
     "Keila": 27,
     "Anija vald": 25,
     "Võru": 24,
-    "Otepää vald": 21,
+    "Põlva": 20,
     "Tartu vald": 20,
     "Jõhvi": 20,
+    "Otepää vald": 20,
     "Tõstamaa osavald": 20,
-    "Põlva": 18,
+    "Paide": 19,
     "Viimsi vald": 18,
-    "Paide": 18,
     "Kambja vald": 16,
     "Haljala vald": 16,
     "Kastre vald": 15,
     "Kõrgessaare": 15,
     "Kose vald": 14,
-    "Rapla": 13,
     "Kaagna": 13,
     "Laagri": 12,
+    "Rapla": 12,
     "Valga": 12,
     "Värska": 12,
     "Viimsi": 11,
@@ -126,6 +126,7 @@
     "Lääne-Harju vald": 2,
     "Linaküla": 2,
     "Kaarepere": 2,
+    "Raasiku": 2,
     "Nissi": 2,
     "Nurmsi küla": 2,
     "Norra": 2,
@@ -170,7 +171,6 @@
     "Kurtna": 1,
     "Munalaskme": 1,
     "Maidla": 1,
-    "Raasiku": 1,
     "Äksi": 1,
     "Leesi": 1,
     "Riisipere": 1,
@@ -184,6 +184,7 @@
     "Viru-Nigula": 1,
     "Laekvere vald": 1,
     "Loo": 1,
+    "Kohila": 1,
     "Varstu": 1,
     "Kernu vald": 1,
     "Elbiku / Ölbäck": 1,
@@ -285,28 +286,28 @@
     "Valgeranna": 1
   },
   "categories": {
-    "exhibition": 862,
-    "business": 529,
-    "family": 1101,
-    "community": 467,
-    "food": 322,
-    "other": 239,
+    "exhibition": 865,
+    "business": 533,
+    "family": 1105,
+    "community": 468,
+    "food": 319,
+    "other": 252,
     "tour": 271,
-    "sport": 260,
-    "music": 1146,
-    "theatre": 2294,
-    "dance": 282,
-    "film": 206,
+    "sport": 259,
+    "music": 1156,
+    "theatre": 2304,
+    "dance": 277,
+    "film": 227,
     "lecture": 157,
-    "festival": 112,
+    "festival": 109,
     "comedy": 239,
     "market": 17,
     "party": 36
   },
   "langs": {
-    "ru": 397,
-    "et": 4987,
-    "en": 878
+    "ru": 398,
+    "et": 5045,
+    "en": 879
   },
   "unknownCategoryKeys": {
     "skiing": 51,
